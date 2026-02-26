@@ -1,3 +1,6 @@
+//NAME:KEMBOI AMOS KIPNGENO
+//REGNO:EB3/68883/23
+//insertion sort using C programming language
 #include<stdio.h>
 void insertionSort(int arr[],int n){
 //int i;
