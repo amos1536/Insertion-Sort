@@ -10,7 +10,7 @@ for(int i=1;i<n;i++){
 	key=arr[i];
 	j=i-1;
 	//swapping elements greater than the key
-	 while (j >= 0 && arr[j] > key) {
+	 while (j >= 0 && arr[j] < key) {
             arr[j + 1] = arr[j];
             j = j - 1;
         }
@@ -27,8 +27,9 @@ int main(){
 
     int arr[n]; 
 
-    printf("Enter %d integers:\n", n);
+   // printf("Enter %d integers:\n", n);
     for (i = 0; i < n; i++) {
+    	printf("Enter the value stored in [%d]:",i);
         scanf("%d", &arr[i]);
     }
 
